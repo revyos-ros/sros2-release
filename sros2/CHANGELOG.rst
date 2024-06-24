@@ -2,6 +2,20 @@
 Changelog for package sros2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.13.1 (2024-05-13)
+-------------------
+* Fix linux tutorial: cloning example policies and set of default policies for a node (`#295 <https://github.com/ros2/sros2/issues/295>`_) (`#296 <https://github.com/ros2/sros2/issues/296>`_)
+  * clone policies to temporary dir as subversion hack doesnt work anymore
+  * add get_type_description service to policies
+  * update MacOS similarly
+  * update all permissions with new topics
+  * dont rule out cycloneDDS
+  * example of enclave override
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
+  (cherry picked from commit ca6bb12cc650b73e7ccfc0fa789d8b49358d44ad)
+  Co-authored-by: Mikael Arguedas <mikael.arguedas@gmail.com>
+* Contributors: mergify[bot]
+
 0.13.0 (2024-02-07)
 -------------------
 * Use modern PKCS7 to sign the certificate bytes. (`#290 <https://github.com/ros2/sros2/issues/290>`_)
