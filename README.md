@@ -1,3 +1,28 @@
+## sros2 (jazzy) - 0.13.1-1
+
+The packages in the `sros2` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy sros2 --override-release-repository-push-url git@github.com:revyos-ros/sros2-release` on `Mon, 24 Jun 2024 08:06:36 -0000`
+
+These packages were released:
+- `sros2`
+- `sros2_cmake`
+
+Version of package(s) in repository `sros2`:
+
+- upstream repository: https://github.com/ros2/sros2.git
+- release repository: https://github.com/revyos-ros/sros2-release.git
+- rosdistro version: `0.13.0-3`
+- old version: `0.13.0-3`
+- new version: `0.13.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## sros2 (humble) - 0.10.5-1
 
 The packages in the `sros2` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -y sros2` on `Wed, 15 May 2024 23:09:27 -0000`
